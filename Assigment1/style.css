@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #435E71;
+    color: white;
+
+}
+
+.container {
+    width: 90%;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    color: coral;
+}
+
+.info-container {
+    width: 100%;
+    overflow: hidden;
+    font-weight: normal;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.weather {
+    width: 40%;
+    float: left;
+    font-size: 30px;
+}
+
+.wind_humd {
+    width: 40%;
+    margin-left: 15%;
+    float: left;
+    font-size: 30px;
+}
+
+.select {
+    margin-left: 80px;
+    font-size: 16px;
+}

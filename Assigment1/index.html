@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="image/png" sizes="16x16" rel="icon" href="icons8-partly-cloudy-day-16.png">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+    <title> Weather </title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <i class='bx bx-sun bx-tada'></i>
+            <span id="info"></span>
+        </div>
+        <div class="select">
+            <span>
+                Choose a city if you want:
+                <select id="citySelected">
+                    <option value="lisboa">Lisboa</option>
+                    <option value="porto">Porto</option>
+                    <option value="faro">Faro</option>
+                    <option value="current">Current</option>
+                </select>
+            </span>
+        </div>
+
+        <div class="info-container">
+            <div class="weather">
+                <i class='bx bxs-thermometer'></i>
+                <span id="weather"></span>
+            </div>
+            <div class="wind_humd">
+                <i class='bx bx-wind'></i>
+                <span id="wind"></span>
+                </br></br>
+                <i class='bx bx-droplet'></i>
+                <span id="humd"></span>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<script src="script.js"></script>
+
+</html>
